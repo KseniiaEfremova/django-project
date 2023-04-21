@@ -41,10 +41,12 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'core',
+    'user',
     'rest_framework',
-    'drf_spectacular',
+    'rest_framework.authtoken',
+    'drf_spectacular'
 ]
-
+  
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
